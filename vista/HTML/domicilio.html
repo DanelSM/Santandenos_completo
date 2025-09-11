@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santandenos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+   <!--BARRA DE NAVEGACION-->
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">  <img src="../IMG/logo.png" alt="" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+             <li class="nav-item">
+            <a class="nav-link" href="../HTML/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/reserva.html">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/sobrenosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/contacto.html">Contacto</a>
+            <li class="nav-item">
+                <a class="nav-link" href="../HTML/domicilio.html">Domicilios</a>
+              </li>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="">
+          <button class="btn btn-danger" type="button">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<div class="container-fluid mt-3">
+</div>
+</nav>
+
+
+<H1 class="tittle">SERVICIO DE ENTREGAS SANTANDENOS A DOMICILIO:
+  DE LA COCINA A TU PUERTA
+</H1>
+
+<h2 class="domiciliou">Encuentranos en estas plataformas.</h2>
+
+   <!-- CARRUSEL -->
+   <div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../IMG/logodidi.png" alt="" class="d-block1">
+      </div>
+      <div class="carousel-item">
+        <img src="../IMG/logorappi.jpg" alt="" class="d-block1">
+      </div>
+      <div class="carousel-item">
+        <img src="../IMG/logouber.jpg" alt="" class="d-block1">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+<section class="formulario165" style="display: flex; gap: 100px; margin: auto; justify-content: center;">
+<div>
+  <form action="../HTML/formularioenviado.html" class="formulario1">
+    <H2>A domicilio</H2>
+    <label for="nombre">NOMBRE</label>
+    <input type="nombre" name="" id="nombre" class="box" required>
+    
+    <label for="correo">CORREO</label>
+    <input type="correo" name="" id="correo" class="box" required>
+
+    <label for="tarjeta de credito">DIRECCION</label>
+    <input type="tarjeta de credito" name="" id="tarjeta" class="box" required>
+    
+    <label for="telefono">TELEFONO</label>
+    <input type="telefono" name="" id="telefono" class="box" required>
+
+    <label for="comment">RECOMENDACIONES</label>
+    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+
+    <input type="submit" name="enviar" id="enviar">
+</form>
+</div>
+
+<div>
+<form action="../HTML/formularioenviado.html" class="formulario2">
+  <H2>Retirar en tienda</H2>
+  <label for="nombre">NOMBRE</label>
+  <input type="nombre" name="" id="nombre" class="box" required>
+  
+  <label for="correo">PEDIDO</label>
+  <input type="correo" name="" id="correo" class="box" required>
+  
+  <label for="telefono">TELEFONO</label>
+  <input type="telefono" name="" id="telefono" class="box" required>
+
+  <label for="comment">RECOMENDACIONES</label>
+  <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+
+  <input type="submit" name="enviar" id="enviar">
+</form>
+</div>
+</section>
+
+
+      <!--PIE DE PAGINA-->
+
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+    <div class="row">
+    <!-- Columna 1 -->
+    <div class="col-md-4">
+    <h5>Enlaces</h5>
+    <ul class="list-unstyled">
+    <li><a href="../HTML/index.html" class="text-white">Inicio</a></li>
+    <li><a href="../HTML/sobrenosotros.html" class="text-white">Acerca de</a></li>
+    <li><a href="../HTML/contacto.html" class="text-white">Contacto</a></li>
+    </ul>
+    </div>
+    <!-- Columna 2 -->
+    <div class="col-md-4">
+    <h5>Redes Sociales</h5>
+    <ul class="list-unstyled">
+    <li><a href="https://www.facebook.com/?locale=es_LA" class="text-white">Facebook</a></li>
+    <li><a href="https://x.com/home?lang=es" class="text-white">Twitter</a></li>
+    <li><a href="https://www.instagram.com/" class="text-white">Instagram</a></li>
+    </ul>
+    </div>
+    <!-- Columna 3 -->
+    <div class="col-md-4">
+    <h5>Contacto</h5>
+    <p>Dirección: Calle 8a sur #27-86</p>
+    <p>Email: santandenos@gmail.com</p>
+    </div>
+    </div>
+    </div>
+    <div class="text-center mt-4">
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    </div>
+    </footer>
+  
+</body>
+</html>
