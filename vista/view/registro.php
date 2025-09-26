@@ -12,10 +12,10 @@
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" class="box" required>
 
-        <label for="correo">Correo</label>
-        <input type="email" id="correo" name="correo" class="box" required>
+        <label for="correo">email</label>
+        <input type="email" id="email" name="email" class="box" required>
 
-        <label for="tarjeta">Tarjeta</label>
+        <label for="tarjeta">contraseña</label>
         <input type="text" id="contraseña" name="contraseña" class="box" required>
 
         <label for="telefono">Teléfono</label>

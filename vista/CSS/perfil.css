@@ -1,0 +1,60 @@
+/* perfil.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f9f3ec, #e8dad0);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.perfil-container {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.perfil-container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #5a3e2b;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.perfil-bienvenida {
+    font-weight: bold;
+    color: #3d2618;
+    font-size: 1.3rem;
+}
+
+.btn-cerrar-sesion {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d46a6a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #b84f4f;
+}
